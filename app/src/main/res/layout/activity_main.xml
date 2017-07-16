@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haya.hayacoffee.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="385dp"
+            android:layout_height="192dp"
+            app:srcCompat="@drawable/coffee"
+            tools:layout_editor_absoluteY="-14dp"
+            tools:layout_editor_absoluteX="-7dp" />
+        <TextView
+
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haya coffee
+ Private coffee is provided to web developers and programmers "
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#029874"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="154dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+
+        <TextView
+
+            android:id="@+id/ite_text_view”
+        android:layout_width="
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            tools:layout_editor_absoluteY="81dp"
+            tools:layout_editor_absoluteX="0dp" >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="229dp"
+            android:layout_height="168dp"
+            app:srcCompat="@drawable/Test10_1"
+            tools:layout_editor_absoluteY="233dp"
+            tools:layout_editor_absoluteX="-5dp" />
+
+        <TextView
+
+            android:id="@+id/ttle_text_view"
+            android:layout_width="160dp"
+            android:layout_height="188dp"
+            android:text="//IF you can read this code , you could
+// probably use a free cup of coffee "
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#878787"
+            tools:layout_editor_absoluteY="238dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            tools:layout_editor_absoluteX="220dp" />
+
+        <TextView
+
+            android:id="@+id/le_text_view"
+            android:layout_width="137dp"
+            android:layout_height="25dp"
+            android:text=" Service evaluation"
+            android:textColor="#876599"
+            tools:layout_editor_absoluteY="435dp"
+            android:layout_marginRight="32dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/whatsapp"
+            tools:layout_editor_absoluteY="460dp"
+            tools:layout_editor_absoluteX="0dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            app:srcCompat="@drawable/gmail"
+            tools:layout_editor_absoluteY="435dp"
+            tools:layout_editor_absoluteX="-3dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="27dp"
+            android:layout_height="29dp"
+            app:srcCompat="@drawable/twitter"
+            tools:layout_editor_absoluteY="401dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="198dp"
+            android:layout_height="40dp"
+            tools:layout_editor_absoluteY="459dp"
+            tools:layout_editor_absoluteX="166dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="165dp"
+            android:layout_height="21dp"
+            android:text="HayaCoffee@gmail.com"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="438dp"
+            tools:layout_editor_absoluteX="39dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:text="+966505566595"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="464dp"
+            tools:layout_editor_absoluteX="39dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="165dp"
+            android:layout_height="21dp"
+            android:text="HayaCoffee"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="405dp"
+            tools:layout_editor_absoluteX="39dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
